@@ -1,0 +1,12 @@
+a, b = input().split()
+Summation = int(a) + int(b)
+Subtraction = int(a) - int(b)
+Multiplication = int(a) * int(b)
+Division = int(a) // int(b)
+Remainder = int(a) % int(b)
+
+print(Summation)
+print(Subtraction)
+print(Multiplication)
+print(Division)
+print(Remainder)
