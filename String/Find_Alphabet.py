@@ -1,6 +1,11 @@
 String_Input = input()
-String_List = list(map(str, String_Input))
+List = [-1]*26
 
-print(String_List)
+for i in range(len(String_Input)):
+    if List[ord(String_Input[i])-97] != -1:
+        continue
+    else:
+        List[ord(String_Input[i])-97] = i
 
-# Not solved
+for i in range(26):
+    print(List[i], end=' ')
