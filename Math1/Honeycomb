@@ -1,7 +1,0 @@
-N = int(input())
-n = 1
-HoneyCombBefore = (6**n-1)/5
-HoneyCombAfter =(6**n+5)/5
-
-while True:
-    if N>>
