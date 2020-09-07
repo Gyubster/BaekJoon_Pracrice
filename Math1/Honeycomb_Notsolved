@@ -1,0 +1,12 @@
+N = int(input())
+sum = 1
+n = 0
+
+while True:
+    if sum>=N:
+        print(n)
+        break
+    else:
+        n += 1
+        sum += 6*n
+
