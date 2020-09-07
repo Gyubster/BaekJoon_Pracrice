@@ -1,7 +1,7 @@
 N = int(input())
 Total = 1
 CountSix = 6
-n = 0
+n = 1
 
 while N>Total:
     Total += CountSix*n
